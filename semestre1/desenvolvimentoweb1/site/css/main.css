@@ -8,4 +8,61 @@
     width: 100%;
     position: fixed;
     top: 0%;
+    color: rgb(81, 0, 156);
+
+}
+
+#logo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Madimi One', 'Tahoma';
+    font-size: 3.5vw;
+}
+
+#menu{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 140%
+}
+
+#menu li:hover{
+    /*background-color: #202071;*/
+    padding-bottom: 0.4em;
+    border-bottom: 0.3em solid #661ba37b;
+    font-weight: bold;
+}
+
+#menu, #content{
+    font-family: 'Roboto';
+}
+
+#content{
+    padding-top: 160px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content p:first-child{
+    text-align: center;
+
+}
+
+#content img{
+    width: 90%;
+}
+
+#footer{
+    background-color: #191970;
+    width: 100%;
+    height: 50px;
 }
