@@ -3,12 +3,17 @@
     padding: 0;
 }
 
+#container{
+    position: relative; 
+    min-height: 100vh;
+}
+
 #header{
     background-color: #191970;
     width: 100%;
     position: fixed;
     top: 0%;
-    color: rgb(81, 0, 156);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -16,7 +21,6 @@
     text-align: center;
     padding-top: 20px;
     font-family: 'Madimi One', 'Tahoma';
-    font-size: 3.5vw;
 }
 
 #menu{
@@ -35,6 +39,11 @@
     font-size: 140%
 }
 
+#menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #menu li:hover{
     /*background-color: #202071;*/
     padding-bottom: 0.4em;
@@ -42,19 +51,29 @@
     font-weight: bold;
 }
 
-#menu, #content{
+#menu, #content, #footer{
     font-family: 'Roboto';
 }
 
 #content{
     padding-top: 160px;
+    padding-bottom: 80px;
     width: 90%;
     margin: 0 auto;
 }
 
-#content p:first-child{
-    text-align: center;
+#content p{
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 10px;
+}
 
+#content p:first-child, #content h2{
+    text-align: center;
+}
+
+#content h2{
+    padding-top: 20px;
 }
 
 #content img{
@@ -65,4 +84,13 @@
     background-color: #191970;
     width: 100%;
     height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer p{
+    text-align: center;
+    color: #661ba37b;
+    padding: 17px 0;
 }
